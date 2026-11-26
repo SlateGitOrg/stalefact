@@ -167,10 +167,10 @@ pytest -q
 
 ```text
 src/stalefact/
-  cli.py          seed, run, eval, trace
+  cli.py          seed, run, eval, trace, sensitivity
   dataset.py      turns.jsonl, truth.json, planted_misses.yaml
   dialogue.py     Turn and JSONL loading
-  evaluate.py     strategy x budget runs, breakdowns, bootstrap intervals
+  evaluate.py     strategy x budget runs, breakdowns, bootstrap intervals, seed sensitivity
   generator.py    seeded claim conversations with planted patterns
   grammar.py      14 slots, utterance templates, regex readers
   memory/         window, rolling, ledger, hybrid
